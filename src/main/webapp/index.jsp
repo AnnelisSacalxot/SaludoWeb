@@ -1,6 +1,23 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
+<%-- Aqui se podra modificar colores con CSS--%>
+        <style>
+            #idname{
+                background: aqua;
+                color: white;
+            }
+            header{
+                background: black;
+                color: white;
+            }
+            .fondito{
+                background: blueviolet;
+                color: white;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="./estilo.css">
+        <%-- Estructura del HTML para la pagina y el formulario para recibir el nombre --%>
     <head>
         <title>Saludos</title>
     </head>
@@ -42,5 +59,7 @@
                 </p>
             </div>
         </footer>
+        <%-- JavaScript --%>
+        <script type="text/javascript" src="./saludo.js"></script>
     </body>
 </html>
