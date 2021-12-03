@@ -50,10 +50,10 @@
                     <h5>Referencias</h5>
                     <ul>
                         <li>
-                            <a href="https://openwebinars.net/blog/que-es-html5/"></a> HTML5
+                            <a href="https://openwebinars.net/blog/que-es-html5/">HTML5</a>
                         </li>
                         <li>
-                            <a href="https://developer.mozilla.org/es/docs/Web/CSS"></a> CSS
+                            <a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a>
                         </li>
                     </ul>
                 </p>
