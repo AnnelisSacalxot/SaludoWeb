@@ -1,21 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
-<%-- Aqui se podra modificar colores con CSS--%>
-        <style>
-            #idname{
-                background: aqua;
-                color: white;
-            }
-            header{
-                background: black;
-                color: white;
-            }
-            .fondito{
-                background: blueviolet;
-                color: white;
-            }
-        </style>
         <link rel="stylesheet" type="text/css" href="./estilo.css">
         <%-- Estructura del HTML para la pagina y el formulario para recibir el nombre --%>
     <head>
@@ -30,14 +15,14 @@
         </header>
         <section>
             <article class="fondito">
-                <h2>Ingresp de datos</h2>
+                <h2>Ingreso de datos</h2>
                 <form>
                     Nombre:
                     <input type="text" id="nombre">
                     <button onclick="saludar()" type="button">Saludar</button>
                 </form>
             </article>
-            <article>
+            <article class="article">
                 <p>Listado de saludos:</p>
                 <ul>
                     <div id="listado"></div>

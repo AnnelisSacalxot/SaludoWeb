@@ -1,0 +1,39 @@
+
+ #idname{
+     background: aqua;
+     color: white;  /* cambiarle color al texto*/
+     width: calc(30% - 30px); /*calc nos sirve para quitar los pixeles si es que quedan grandes*/
+     float: left; /*para que se mueva a la izquierda*/
+     padding: 10px; /*para crear margenes en las cajas, esto se puede hacer completo o del lado que necesitemos */
+ }
+header{
+    background: black;
+    color: white;
+    font-family: Chilanka;
+    margin: 0px auto; /* para centrar el elementro*/
+    border: solid red;
+    line-height: normal;
+    border-bottom: 3px dashed greenyellow;/* se coloca margen en cualquier borde que se desea y la propiedad daseh es un borde punteado]*/
+
+}
+.fondito{
+    background: blueviolet;
+    color: white;
+    clear-side: both; /* cuando flotan los elementos se queden en su sitio*/
+}
+
+footer{
+    background: brown;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article{
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
